@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-container {
+    display: flex;
+}
+
+.card-1 {
+    border-style: solid;
+}
+
+.card-1 border-1 {
+    border-style: solid red;
+}
+
+/* p {
+    text-align: center;
+} */
+

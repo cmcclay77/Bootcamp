@@ -15,7 +15,7 @@ var expressHello = function() {
 };
 
 // Functions must be called to execute
-declareHello(); 
+declareHello();
 expressHello();
 
 //Functions can be called again to make the block of code execute again

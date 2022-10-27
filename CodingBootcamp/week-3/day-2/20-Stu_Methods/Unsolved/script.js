@@ -10,5 +10,5 @@ var galaxies = constellations.concat(planets);
 var space = star.toUpperCase();
 
 console.log(space);
-console.log(galaxies);
-console.log(constellations);
+console.log('Galaxies', galaxies);
+console.log('Constellations', constellations);

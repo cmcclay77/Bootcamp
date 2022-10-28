@@ -1,6 +1,8 @@
 // TODO: Which element is the following line of code selecting?
+// Selecting the carouselbox Div....
 var carousel = document.querySelector(".carouselbox");
 // TODO: Which element is the following line of code selecting?
+// Selecting the next and previous buttons...
 var next = carousel.querySelector(".next");
 var prev = carousel.querySelector(".prev");
 var index = 0;
@@ -27,21 +29,26 @@ function navigate(direction) {
 }
 
 // TODO: Describe the functionality of the following event listener.
+// it listens for a click, and then takes you ro the location URL of the image.....
 carousel.addEventListener("click", function() {
   window.location.href = images[index];
 });
 
 // TODO: Describe the functionality of the following event listener.
+// listens for a click on the next button....
 next.addEventListener("click", function(event) {
   // TODO: What is the purpose of the following line of code?
+  // makes it one click at a time, not continous....
   event.stopPropagation();
 
   navigate(1);
 });
 
 // TODO: Describe the functionality of the following event listener.
+// Listens for a click on the previous button....
 prev.addEventListener("click", function(event) {
     // TODO: What would happen if we didn't add the following line of code?
+    //  It would take us to the URL of the image/bubble up to the parent element...
   event.stopPropagation();
 
   navigate(-1);

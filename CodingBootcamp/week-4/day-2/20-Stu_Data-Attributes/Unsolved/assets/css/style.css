@@ -36,6 +36,10 @@ h1 {
   color: whitesmoke;
 }
 
+.box[data-state = "visible"] {
+  background-color: yellow;
+}
+
 @media (max-width: 740px) {
   .box {
     width: 48%;

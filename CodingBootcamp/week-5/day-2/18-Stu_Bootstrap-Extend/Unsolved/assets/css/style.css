@@ -8,3 +8,20 @@
 
 /* Add your custom class style definitions here */
 /* HINT: Apply CSS variables using `var(--brown)` syntax as your property value */
+.custom-navbar {
+  background-color: var(--teal);
+  color: var(--light);
+}
+
+#navbar a:hover {
+  color: red;
+}
+
+.hero {
+  background-color: var(--lightteal);
+}
+
+.custom-btn {
+  background-color: var(--brown);
+  color: whitesmoke;
+}

@@ -1,14 +1,16 @@
 var constellations = ["Orion", "Scorpius", "Lyra", "Ursa Major", "Ursa Minor"];
 var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
 var star = "polaris";
-
 // WRITE YOUR CODE BELOW
-constellations.unshift("Canis Major");
-planets.pop();
-var galaxies = constellations.concat(planets);
 
-var space = star.toUpperCase();
+constellations.splice(0, 0, 'Canis Major');
+console.log(constellations);
 
-console.log(space);
-console.log('Galaxies', galaxies);
-console.log('Constellations', constellations);
+planets.pop('');
+console.log(planets);
+
+var galaxy = constellations.concat(planets);
+console.log(galaxy);
+
+var starCaps = star.toUpperCase('polaris');
+console.log(starCaps);

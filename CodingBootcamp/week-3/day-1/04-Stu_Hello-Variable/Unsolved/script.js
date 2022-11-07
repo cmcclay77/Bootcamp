@@ -1,16 +1,17 @@
 // Write Your JavaScript Code Here
-var personName= "Chris";
-var pets= 2;
-var funFact= "I love Brazilian Jiu Jitsu";
 
-console.log ("my name is " + personName);
-console.log ("I have " + pets +" pets");
-console.log ("my fun fact is " + funFact);
+var personName = 'Chris McClay';
+console.log('My name is ' + personName);
 
-personName = "Reese ";
-pets = 5;
-funFact = "I am a TA"
+var pets = 2;
+console.log('I have ' + pets + ' pets.');
 
-console.log ("my name is " + personName);
-console.log ("I have " + pets +" pets");
-console.log ("fun fact: " + funFact);
+var funFact = 'I love Brazilian Jiu Jitsu';
+console.log('Fun fact: ' + funFact);
+
+personName = 'Kris';
+pets = 1;
+funFact = 'My cat is fluffy not fat';
+
+console.log(personName + " " + pets + " " + funFact);
+console.log(`My name is ${personName}`);

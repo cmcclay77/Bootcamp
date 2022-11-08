@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.hero {
+    justify-content: center;
+    display: flex;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 2rem;
+    background-color: blueviolet;
+}
